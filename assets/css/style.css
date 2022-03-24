@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 * Get Startet Button 
 */
 .get-started-btn {
-  margin-left: 22px;
+  margin-left: 0px;
   background: #70bdd9;
   color: #fff;
   border-radius: 50px;
