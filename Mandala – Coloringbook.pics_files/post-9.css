@@ -1,0 +1,168 @@
+.elementor-kit-9{--e-global-color-primary:#AD9DB3;--e-global-color-secondary:#262626;--e-global-color-text:#4D4D4D;--e-global-color-accent:#FACF6E;--e-global-color-0f6f476:#F6F6F6;--e-global-color-a98f5a7:#AD9DB340;--e-global-color-b84aa29:#FACF6E40;--e-global-typography-primary-font-family:"Arial";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Arial";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Arial";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Arial";--e-global-typography-accent-font-weight:500;font-family:"Arial", Sans-serif;}.elementor-kit-9 a{color:var( --e-global-color-accent );font-family:"Arial", Sans-serif;font-weight:700;}.elementor-kit-9 a:hover{color:var( --e-global-color-primary );}.elementor-kit-9 h1{font-family:"Arial", Sans-serif;font-size:32px;}.elementor-kit-9 h2{font-family:"Arial", Sans-serif;font-size:28px;line-height:36px;}.elementor-kit-9 h3{font-family:"Arial", Sans-serif;font-size:24px;line-height:32px;}.elementor-kit-9 h4{font-family:"Arial", Sans-serif;}.elementor-kit-9 h5{font-family:"Arial", Sans-serif;}.elementor-kit-9 h6{font-family:"Arial", Sans-serif;}.elementor-kit-9 button,.elementor-kit-9 input[type="button"],.elementor-kit-9 input[type="submit"],.elementor-kit-9 .elementor-button{color:var( --e-global-color-secondary );background-color:#FACF6E;border-style:solid;border-width:0px 0px 0px 0px;border-radius:10px 10px 10px 10px;}.elementor-kit-9 button:hover,.elementor-kit-9 button:focus,.elementor-kit-9 input[type="button"]:hover,.elementor-kit-9 input[type="button"]:focus,.elementor-kit-9 input[type="submit"]:hover,.elementor-kit-9 input[type="submit"]:focus,.elementor-kit-9 .elementor-button:hover,.elementor-kit-9 .elementor-button:focus{color:#FFFFFF;background-color:var( --e-global-color-primary );box-shadow:0px 0px 7px 0px rgba(0, 0, 0, 0.3);}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1200px;}.e-container{--container-max-width:1200px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-9 e-page-transition{background-color:#FFBC7D;}.site-header{padding-right:0px;padding-left:0px;}.site-header .site-description{font-family:"Arial", Sans-serif;}.site-header .site-navigation .menu li{font-family:"Arial", Sans-serif;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-container{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-9 h1{font-size:30px;line-height:38px;}.elementor-kit-9 h2{font-size:26px;}.elementor-kit-9 h3{font-size:24px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-container{--container-max-width:767px;}}/* Start custom CSS *//* Komentare */
+#respond .comment-form-url, #respond .comment-form-email,  #respond .comment-notes, .comment .no-avatar, #respond .comment-form-cookies-consent  {display:none;}
+
+#comments textarea, #comments input[type=text] {
+	border-radius: 10px;
+    border:1px solid #fbfbfb;
+	background: #fff;
+	box-shadow: 0 6px 18px rgb(0 0 0 / 10%);
+ 
+    outline-color: #ededed;
+    outline-style: solid;
+    outline-width: 1px;
+
+	}
+#comments textarea:focus-visible, #comments input[type=text]:focus-visible {
+    outline-color: #AD9DB3;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.comment-form .form-fields {overflow: unset;}
+.comment-list .comment-body {
+	padding: 15px 15px 5px 15px;
+}
+
+#commentform textarea {height:120px;}
+
+.comment-list .reply {
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+#comments .comment .comment-body {
+    margin-bottom: 10px;
+    padding:8px 8px 8px 8px;
+    	border-radius: 10px;
+    border:1px solid #f9f9f9;
+	background: #fff;
+	box-shadow: 0 6px 18px rgb(0 0 0 / 10%);
+}
+.comment-content, .comment-list .reply {margin-bottom:0px;}
+.comment-metadata {
+    margin-bottom: 10px;
+}
+
+#comments .comment-meta {
+    justify-content: normal;
+    margin-bottom: 6px;
+    margin-top:2px;
+}
+.comment-author {margin-right: 10px;}
+
+#comments .comment-metadata {
+    font-size:11px;
+    margin-bottom:0px;
+    margin-top:2px;
+
+}
+
+#comments .comment-metadata a {
+    color: #999;
+    font-weight:normal;
+}
+.comment-list .reply {
+   position: absolute;
+   top: 12px;
+   right: 10px;
+  ;
+}
+
+.comment-content p {margin-bottom: 0px;}
+
+.says {display:none;}
+
+
+input:focus ~ .floating-label, input:not(:focus):valid ~ .floating-label, textarea:focus ~ .floating-label, textarea:not(:focus):valid ~ .floating-label
+{
+  top: -14px;
+  bottom: 10px;
+  left: 0px;
+  font-size: 11px;
+  opacity: 1;
+  background:#AD9DB3;
+  border: 1px solid #ededed;
+  border-radius: 8px;
+  max-height:22px;
+  width: auto;
+  padding: 2px 10px;
+  color:#fff;
+}
+
+
+
+
+
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  top: 12px;
+  font-size:14px;
+  transition: 0.5s ease all;
+  height: auto;
+  color: #999;
+}
+
+.commentlabel {
+    position:relative;
+    margin-bottom: 20px;
+}
+
+
+
+.commentbox1, .commentbox2 {
+    position:relative;
+    float:left;
+    width: 49%;
+}
+
+.commentbox1 {margin-right:2%;}
+
+h3.comment-reply-title, h3.title-comments {
+    font-size:18px; 
+    line-height:26px;
+}
+
+#cancel-comment-reply-link {float:right;}
+
+
+@media only screen and (max-width: 768px) {
+.commentbox1, .commentbox2 {
+      width: 100%;
+}
+.commentbox1 {margin-right:0;}
+
+#comments .comment-metadata {margin-top:6px;}
+.comment-list .reply {top: 16px;}
+}
+/* Breadcrumbs */
+
+.mybreadcrumbs {
+    
+	font-size: 14px;
+	color: #999;
+	font-weight: 300;
+}
+
+.mybreadcrumbs a{
+	color: #999;
+	font-weight: 300;
+	text-decoration:none;
+    
+}
+
+.mybreadcrumbs a:hover{
+	text-decoration:underline;
+}
+
+.currentbreadcrumbs, .currentbreadcrumbs a {
+	color:#AD9DB3;
+	font-weight: 700;
+	text-decoration: none;}
+
+/* Breadcrumbs End *//* End custom CSS */

@@ -1,0 +1,246 @@
+#platno {
+   width: 100%;
+	height: calc(100vw);
+	max-width: 785px;
+	max-height: 785px;
+   border: 3px solid #fff;
+   display:flex;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   -webkit-box-shadow: 0px 0px 5px 1px rgba(64,157,239,0.12); 
+   box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.12);
+   margin: 0 auto;
+   box-sizing: border-box;
+   overflow: hidden;
+   background: #fbfbfb;
+   cursor: grab;
+	} 
+
+.controlbtns {
+   background: #fbfbfb;
+   background-image: linear-gradient(to left, rgba(255,0,0,0.5),rgba(255,165,0,0.5), rgba(255,255,0,0.5), rgba(0,128,0,0.5), rgba(0,0,255,0.5), rgba(75,0,130,0.5), rgba(238,130,238,0.5) );
+   box-sizing: border-box;
+   height: 35px;
+   width: 100%;
+	max-width: 785px;
+   margin: 0 auto;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   -webkit-box-shadow: 0px 2px 5px 1px rgba(64,157,239,0.20); 
+   box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.20);
+   overflow: hidden;
+   }
+
+.btncontrols {
+   float: left; 
+   border-right: 2px solid rgba(255,255,255,1);
+   height: 100%;
+   width: 20%;
+   box-sizing: border-box;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   text-transform: uppercase;
+   font-size: 12px;
+   font-weight: bold;
+   letter-spacing: 1px; 
+   color: #262626;
+   background: rgba(237,237,237,0.8);
+   transition: background 0.5s ease-out 0s;
+   }
+.btncontrols:hover {
+   background: rgba(237,237,237,0.3);
+   transition: background 0.5s ease-in 0s;
+}
+
+.btncontrols i {
+   margin-right: 8px;
+   margin-bottom: 2px;
+   font-size: 16px;
+   color: #333;
+   }
+
+.btncontrols:hover i {font-size: 18px;margin-right: 0px; margin-bottom: 0px;}
+.controlslink  {color: #262626;}
+.btncontrols:hover .controlslinktext {display: none;}
+.btncontrols:nth-child(5) {border-right: none;}
+div.controlbtns > a.anchor-link.last > div {border-right: none;}
+
+.svg-pan-zoom-control-background {
+    fill: white !important;
+    fill-opacity: 0.8;
+}
+.svg-pan-zoom-control-element {
+    fill: #262626 !important;
+    fill-opacity: 0.233;
+}
+path {cursor: crosshair;}
+.box {float:left;	margin-right:8px;}
+input[type="color"] {
+   appearance: none;
+   -moz-appearance: none;
+   -webkit-appearance: none;
+   background: none;
+   border-radius:0 10px 10px 0;
+   padding: 0;
+  
+}
+
+*:focus{border-radius: 0 10px 10px 0;outline: none;}
+::-webkit-color-swatch-wrapper {padding: 0;}
+::-webkit-color-swatch{border: 0; border-radius: 0 10px 10px 0;}
+::-moz-color-swatch,::-moz-focus-inner{border: 3px solid #fbfbfb;}
+::-moz-focus-inner{padding: 0;}
+	
+input[type="color"]::before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 700;
+	color:#262626;
+	content: "\f53f";
+	font-size: 20px; 
+	position:absolute;
+	background:#fff;
+	width:33px;
+	height:33px;
+	border-radius:0 10px 10px 0;
+	display: flex;
+ 	align-items:center;
+   justify-content: center;
+}
+
+.customcolorx {
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   border: 3px solid #fbfbfb !important;
+	border-radius: 10px 0 0 10px;
+   }
+	
+.customcolorx, input[type="color"] {
+   float: left; 
+   width:38px;
+   height: 38px;
+   border: 3px solid #fbfbfb;
+   cursor: pointer;
+   -webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1); 
+   box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+	}
+
+#customcolor1.selectioncustomcolor::before,#customcolor2.selectioncustomcolor::before,
+#customcolor3.selectioncustomcolor::before,#customcolor4.selectioncustomcolor::before {
+   font-family: "Font Awesome 5 Free";
+   font-weight: 700;
+   color:#fff;
+   content: "\f1fc";
+   position:relative;
+   font-size: 16px;   
+   text-shadow:  0px 0px 5px #666;    
+}
+   
+.basiccolor {
+   width:35px;
+   height: 35px;
+   border-radius:10px;
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   float: left; 
+   margin: 2px 2px;
+   border: 3px solid #fbfbfb !important;
+   cursor: pointer;
+   -webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1); 
+   box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+   
+   }
+
+.selectioncustomcolor {
+   border: 3px solid #fbfbfb !important;
+   -webkit-box-shadow: 0px 0px 5px 1px rgba(64,157,239,32) ; 
+   box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.32);
+   text-align: center;}
+
+.paleta64 .selectioncustomcolor::before {
+   font-family: "Font Awesome 5 Free";
+   font-weight: 700;
+   color:#fff;
+   content: "\f1fc";
+   position:relative;
+   font-size: 16px;   
+   text-shadow:  0px 0px 5px #666;    
+}
+
+#color01::before,#color02::before,#color08::before,#color09::before,#color10::before,#color11::before,#color17::before,#color18::before,#color19::before,#color20::before,
+#color26::before,#color27::before,#color28::before,#color29::before,#color35::before,#color36::before,#color37::before,#color38::before,#color44::before,#color45::before,
+#color46::before,#color47::before,#color53::before,#color54::before {color: #000; text-shadow:  0px 0px 5px  #fff;}
+
+.paleta64 { padding-top: 16px;clear:both;}
+
+.customcolorx:hover, .basiccolor:hover, #paleta:hover  {
+   border: 3px solid #fbfbfb; 
+   -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.32); 
+   box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.32);
+   }
+
+@media only screen and (max-width: 768px) {
+   .controlslinktext {font-size: 11px;}
+}   
+
+@media only screen and (max-width: 600px) {
+   .controlslinktext {font-size: 10px;}
+   .btncontrols i {font-size: 14px;}
+   .btncontrols {letter-spacing: 0px; }
+}   
+
+@media only screen and (max-width: 480px) {
+    .controlslinktext {display: none;}
+    .btncontrols i {
+        margin-right: 0px;
+        margin-bottom: 0px;
+        font-size: 18px;
+        }
+} 
+
+@media only screen and (max-width: 380px) {
+   .btncontrols i {
+         font-size: 16px;
+       }
+} 
+
+ /* vyska max 768px desktop*/  
+@media screen and (min-width: 1019px) and (max-height: 900px){ }   
+/* tablet na sirku*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+	#omalovanka2 {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	float: left;
+	} 
+}
+/* mobil na sirku */
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) and (orientation: landscape) {
+   #omalovanka2 {
+      width: 300px !important;
+      height: 300px !important;
+      position: relative;
+      float: left;
+	} 
+}
+  
+@media only screen and (min-width: 697px) and (max-width: 1018px){
+	#paleta1 {
+      width: 100%;
+      max-width: 697px;
+      height: 100%;
+      max-height: 120px;
+	   }
+	#omalovanka2 {
+      width: 100%;
+      height: 100%;
+      margin: 0 0;
+      }
+   }
